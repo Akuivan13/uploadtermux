@@ -1,0 +1,29 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Weather API",
+        "description": "Simple Weather API Documentation"
+    },
+    "paths": {
+        "/weather": {
+            "get": {
+                "summary": "Get weather information",
+                "description": "Returns weather information for a specific location",
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "city": { "type": "string" },
+                                "temperature": { "type": "number" },
+                                "description": { "type": "string" }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

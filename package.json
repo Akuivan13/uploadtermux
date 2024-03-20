@@ -1,0 +1,17 @@
+{
+  "name": "tiktokdl",
+  "version": "1.0.0",
+  "description": "tiktokdl",
+  "main": "./api/index.js",
+  "scripts": {
+    "start": "npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Akuivan13",
+  "license": "ISC",
+  "dependencies": {
+    "@tobyg74/tiktok-api-dl": "^1.0.14",
+    "express": "^4.18.3"
+  }
+}
